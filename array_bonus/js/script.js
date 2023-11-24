@@ -7,3 +7,9 @@
             5 - aggiungiamo un elemento a array y [i]
     3 - chiudiamo il ciclo
 */
+
+
+//primo array
+let array_x = [2, 3, 4, 5, 5, 5, 6, 6, 7];
+//secondo array
+let array_y = [3, 5, 6, 7, 8, 9];
