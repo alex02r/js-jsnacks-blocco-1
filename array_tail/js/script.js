@@ -5,7 +5,7 @@
         3 - generiamo un numero casuale da 1 a 100
         4 - inseriamo il numero nell'array
     2 - fine ciclo
-    5 - con la funzione sort() ribaltiamo l'array
+    5 - con la funzione reverse() ribaltiamo l'array
     6 - inizializziamo un cilo for che va fino a 5
         7 - stampiamo array[i]
     6 - fine ciclo 
@@ -19,4 +19,8 @@ for (let i = 0; i < long; i++) {
     let num = Math.floor(Math.random()*(100 - 1) + 1);
     array.push(num);
 }
+console.log(array);
+
+//ordiniamo l'array al contrario
+array.reverse();
 console.log(array);
