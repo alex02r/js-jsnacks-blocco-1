@@ -13,3 +13,14 @@
 let array_x = [2, 3, 4, 5, 5, 5, 6, 6, 7];
 //secondo array
 let array_y = [3, 5, 6, 7, 8, 9];
+
+//controlliamo quale array è il più grande per far partire il for
+//inizializziamo una variabile che conterrà la lunghezza dell'array
+let long;
+if (array_x > array_y) {
+    //array x è più grande
+    long = array_x.length
+}else if(array_x < array_y){
+    //array y è più grande
+    long = array_y.length
+}
