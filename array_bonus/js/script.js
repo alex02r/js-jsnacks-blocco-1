@@ -18,11 +18,11 @@ let array_y = [3, 5, 6, 7, 8, 9];
 //inizializziamo una variabile che conterrà la lunghezza dell'array
 let long;
 let minore;
-if (array_x > array_y) {
+if (array_x.length > array_y.length) {
     //array x è più grande
     long = array_x
     minore = array_y;
-}else if(array_x < array_y){
+}else if(array_x.length < array_y.length){
     //array y è più grande
     long = array_y
     minore = array_x;
@@ -34,6 +34,7 @@ for (let i = 0; i < long.length; i++) {
     if(minore.length < long.length){
         //siamo qui perchè l'array minore è ancora minore
         minore.push('elemento');
-    }
-    
+    }    
 }
+console.log(long);
+console.log(minore);
