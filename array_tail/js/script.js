@@ -23,4 +23,6 @@ console.log(array);
 
 //ordiniamo l'array al contrario
 array.reverse();
-console.log(array);
+for (let i = 0; i < 5; i++) {
+    console.log(array[i]);
+}
