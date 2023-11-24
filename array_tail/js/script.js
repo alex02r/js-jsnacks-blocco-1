@@ -10,3 +10,6 @@
         7 - stampiamo array[i]
     6 - fine ciclo 
 */
+
+//chiediamo all'utente la lunghezza dell'array
+let long = prompt('Inserisci il numero di elementi che deve contenere l\'array');
