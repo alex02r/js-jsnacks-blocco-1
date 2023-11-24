@@ -17,10 +17,23 @@ let array_y = [3, 5, 6, 7, 8, 9];
 //controlliamo quale array è il più grande per far partire il for
 //inizializziamo una variabile che conterrà la lunghezza dell'array
 let long;
+let minore;
 if (array_x > array_y) {
     //array x è più grande
-    long = array_x.length
+    long = array_x
+    minore = array_y;
 }else if(array_x < array_y){
     //array y è più grande
-    long = array_y.length
+    long = array_y
+    minore = array_x;
+}
+
+//ciclo for che va fino alla lunghezza dell'array maggiore
+for (let i = 0; i < long.length; i++) {
+    //controlliamo se dobbiamo aggiungere o meno l'elemento
+    if(minore.length < long.length){
+        //siamo qui perchè l'array minore è ancora minore
+        minore.push('elemento');
+    }
+    
 }
