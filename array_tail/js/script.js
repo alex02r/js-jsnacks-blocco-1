@@ -13,3 +13,10 @@
 
 //chiediamo all'utente la lunghezza dell'array
 let long = prompt('Inserisci il numero di elementi che deve contenere l\'array');
+let array = [];
+for (let i = 0; i < long; i++) {
+    //generiamo il numero casuale
+    let num = Math.floor(Math.random()*(100 - 1) + 1);
+    array.push(num);
+}
+console.log(array);
