@@ -23,6 +23,19 @@ console.log(array);
 
 //ordiniamo l'array al contrario
 array.reverse();
-for (let i = 0; i < 5; i++) {
-    console.log(array[i]);
+
+//chiediamo all'utente quanti elementi dell'array dobbiamo stampare
+let n_element = prompt('Inserisci quanti elementi vuoi stampare (a partire dall\'ultimo');
+let n;
+//controlliamo che il numero sia minore della lunghezza dell'array
+if(n_element < array.length){
+    n = n_element;
+    
+    for (let i = 0; i < n; i++) {
+        console.log(array[i]);
+    }
+
+}else{
+    console.log('Hai inserito un numero troppo alto di elementi');
 }
+
